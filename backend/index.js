@@ -13,7 +13,6 @@ require('dotenv').config();
 const db = mysql.createConnection({
   host: '127.0.0.1',
   user: 'root',
-  // password: 'Desc0deuses1510',
   port: 3306
 });
 
